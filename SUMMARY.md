@@ -7,3 +7,6 @@
       * [b - Whois Enumeration](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/b-whois-enumeration.md)
       * [c - Website Footprinting with Netcraft](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/c-website-footprinting-with-netcraft.md)
       * [d - DNS Recon](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/d-dns-recon.md)
+      * [e - WAF Detection with wafw00f](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/e-waf-detection-with-wafw00f.md)
+      * [f - Subdomain Enumeration with SUblist3r](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/f-subdomain-enumeration-with-sublist3r.md)
+      * [Google Dorks](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/google-dorks.md)

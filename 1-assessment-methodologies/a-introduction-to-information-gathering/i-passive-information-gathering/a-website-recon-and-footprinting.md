@@ -16,7 +16,7 @@
 
 `host hackersploit.org` - using the \[host] utility on kali to perform a dns lookup on a target site. Then multiple IPV4 addresses is as a result of the fact that the webserver is behind a firewall/proxy ie "cloudflare".
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 `hackersploit.org/robots.txt` - The robots.txt files allows the dev to specify web files/folder they don't want search engines to index.
 
