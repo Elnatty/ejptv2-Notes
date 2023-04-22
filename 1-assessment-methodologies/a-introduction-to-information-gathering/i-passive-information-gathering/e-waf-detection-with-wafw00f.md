@@ -8,7 +8,7 @@ description: Identify and fingerprint Web Application Firewall products
 
 `wafw00f aztecmfbank.com` - specify a website for checks.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 `wafw00f aztecmfbank.com -a` - to make sure thorough checks are done.
 

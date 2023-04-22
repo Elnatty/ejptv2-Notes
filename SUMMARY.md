@@ -12,3 +12,7 @@
       * [g - Google Dorks](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/g-google-dorks.md)
       * [h - Email Harvesting with theHarvester](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/h-email-harvesting-with-theharvester.md)
       * [i - Leaked Password Databases](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/i-leaked-password-databases.md)
+    * [ii - Active Information Gathering](1-assessment-methodologies/a-introduction-to-information-gathering/ii-active-information-gathering/README.md)
+      * [a - DNS Zone Transfers](1-assessment-methodologies/a-introduction-to-information-gathering/ii-active-information-gathering/a-dns-zone-transfers.md)
+      * [b - Host Discovery with NMAP](1-assessment-methodologies/a-introduction-to-information-gathering/ii-active-information-gathering/b-host-discovery-with-nmap.md)
+      * [c - Port Scanning with NMAP](1-assessment-methodologies/a-introduction-to-information-gathering/ii-active-information-gathering/c-port-scanning-with-nmap.md)
