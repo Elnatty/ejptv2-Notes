@@ -1,4 +1,4 @@
-# Google Dorks
+# g - Google Dorks
 
 `site:ine.com` - give various subdomains of the domain.
 
