@@ -2,7 +2,7 @@
 description: Reconnaissance
 ---
 
-# A - Introduction to Information Gathering
+# A - Information Gathering
 
 * This is the 1st phase of step of any penetration test and involves gathering or collecting info about an individual.
 * The more info you have on your target, the more successful you will be during the latter stages of a pen test.
