@@ -4,7 +4,7 @@ The process of utiilising publickly available leaked databases online to identil
 
 \`[https://haveibeenpwned.com/](https://haveibeenpwned.com/)\` - contains aggregated lists of compromised users accounts.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
