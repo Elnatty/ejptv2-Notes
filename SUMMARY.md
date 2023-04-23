@@ -19,3 +19,7 @@
   * [B - Footprinting & Scanning](1-assessment-methodologies/b-footprinting-and-scanning/README.md)
     * [i - Mapping a Network](1-assessment-methodologies/b-footprinting-and-scanning/i-mapping-a-network.md)
     * [ii - Port Scanning](1-assessment-methodologies/b-footprinting-and-scanning/ii-port-scanning.md)
+    * [Challenges](1-assessment-methodologies/b-footprinting-and-scanning/challenges.md)
+  * [C - Enumeration](1-assessment-methodologies/c-enumeration/README.md)
+    * [i - SMB - 135,139,445](1-assessment-methodologies/c-enumeration/i-smb-135-139-445.md)
+    * [Page 2](1-assessment-methodologies/c-enumeration/page-2.md)
