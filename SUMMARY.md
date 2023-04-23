@@ -22,4 +22,7 @@
     * [Challenges](1-assessment-methodologies/b-footprinting-and-scanning/challenges.md)
   * [C - Enumeration](1-assessment-methodologies/c-enumeration/README.md)
     * [i - SMB - 135,139,445](1-assessment-methodologies/c-enumeration/i-smb-135-139-445.md)
-    * [Page 2](1-assessment-methodologies/c-enumeration/page-2.md)
+    * [ii - FTP - 20,21](1-assessment-methodologies/c-enumeration/ii-ftp-20-21.md)
+    * [iii - SSH - 22](1-assessment-methodologies/c-enumeration/iii-ssh-22.md)
+    * [iv - HTTP IIS - 80](1-assessment-methodologies/c-enumeration/iv-http-iis-80.md)
+    * [v - MySQL - 1433,3306](1-assessment-methodologies/c-enumeration/v-mysql-1433-3306.md)
