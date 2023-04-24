@@ -103,7 +103,7 @@ Organizations or Governments have put together frameworks that help us with busi
 * 5 levels.
 *
 
-    <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **ASD Essential 8**
 
@@ -113,7 +113,7 @@ Organizations or Governments have put together frameworks that help us with busi
 * 4 maturity levels.
 *
 
-    <figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ## Auditing
 

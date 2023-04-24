@@ -39,4 +39,7 @@
   * [A - System Host Based Attacks](2-host-and-network-penetration-testing/a-system-host-based-attacks/README.md)
     * [i - Windows](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/README.md)
       * [a - Overview of Windows Vulnerabilities](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/a-overview-of-windows-vulnerabilities.md)
+      * [b - Exploiting Windows Vulnerabilities](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/b-exploiting-windows-vulnerabilities/README.md)
+        * [1 - Microsoft IIS WebDav](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/b-exploiting-windows-vulnerabilities/1-microsoft-iis-webdav.md)
+        * [2 - Exploiting SMB with PsExec](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/b-exploiting-windows-vulnerabilities/2-exploiting-smb-with-psexec.md)
   * [B - Network Based Attacks](2-host-and-network-penetration-testing/b-network-based-attacks.md)
