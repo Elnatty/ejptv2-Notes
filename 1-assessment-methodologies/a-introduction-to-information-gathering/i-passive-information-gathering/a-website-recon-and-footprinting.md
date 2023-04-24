@@ -34,7 +34,7 @@ Another builtin tool in kali for footprinting websites. You can specify aggressi
 
 `whatweb hackersploit.com` - for a basic enumeration.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Downloading an Entire Website
 

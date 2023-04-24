@@ -8,7 +8,7 @@ description: identifying open ports and services running on these open ports.
 
 `nmap -Pn 192.168.0.141` - we specify the `-Pn` which disables ping(ICMP), because by default Windows machines disables ping request by defualt.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 `nmap -Pn -p- 192.168.0.141` - entire 65535 ports scan.
 
