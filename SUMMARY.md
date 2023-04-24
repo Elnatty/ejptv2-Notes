@@ -32,3 +32,6 @@
       * [Heartbleed - (CVE-2014-0160)](1-assessment-methodologies/d-vulnerability-assessment/ii-case-studies/heartbleed-cve-2014-0160.md)
       * [EternalBlue - MS17-010 (CVE-2017-0143)](1-assessment-methodologies/d-vulnerability-assessment/ii-case-studies/eternalblue-ms17-010-cve-2017-0143.md)
       * [Log4J (CVE-2021-44228)](1-assessment-methodologies/d-vulnerability-assessment/ii-case-studies/log4j-cve-2021-44228.md)
+  * [E - Auditing Fundamentals](1-assessment-methodologies/e-auditing-fundamentals/README.md)
+    * [Cybersecurity Basics](1-assessment-methodologies/e-auditing-fundamentals/cybersecurity-basics/README.md)
+      * [Labs](1-assessment-methodologies/e-auditing-fundamentals/cybersecurity-basics/labs.md)
