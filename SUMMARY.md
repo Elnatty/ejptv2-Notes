@@ -1,6 +1,6 @@
 # Table of contents
 
-* [1 Assessment Methodologies](README.md)
+* [1 - Assessment Methodologies](README.md)
   * [A - Information Gathering](1-assessment-methodologies/a-introduction-to-information-gathering/README.md)
     * [i - Passive Information Gathering](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/README.md)
       * [a - Website Recon & Footprinting](1-assessment-methodologies/a-introduction-to-information-gathering/i-passive-information-gathering/a-website-recon-and-footprinting.md)
@@ -35,3 +35,8 @@
   * [E - Auditing Fundamentals](1-assessment-methodologies/e-auditing-fundamentals/README.md)
     * [Cybersecurity Basics](1-assessment-methodologies/e-auditing-fundamentals/cybersecurity-basics/README.md)
       * [Labs](1-assessment-methodologies/e-auditing-fundamentals/cybersecurity-basics/labs.md)
+* [2 - Host & Network Penetration Testing](2-host-and-network-penetration-testing/README.md)
+  * [A - System Host Based Attacks](2-host-and-network-penetration-testing/a-system-host-based-attacks/README.md)
+    * [i - Windows](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/README.md)
+      * [a - Overview of Windows Vulnerabilities](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/a-overview-of-windows-vulnerabilities.md)
+  * [B - Network Based Attacks](2-host-and-network-penetration-testing/b-network-based-attacks.md)
