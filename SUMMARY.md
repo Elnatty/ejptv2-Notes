@@ -42,4 +42,8 @@
       * [b - Exploiting Windows Vulnerabilities](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/b-exploiting-windows-vulnerabilities/README.md)
         * [1 - Microsoft IIS WebDav](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/b-exploiting-windows-vulnerabilities/1-microsoft-iis-webdav.md)
         * [2 - Exploiting SMB with PsExec](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/b-exploiting-windows-vulnerabilities/2-exploiting-smb-with-psexec.md)
+        * [3 - Exploiting RDP](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/b-exploiting-windows-vulnerabilities/3-exploiting-rdp.md)
+        * [4 - Exploiting WinRM](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/b-exploiting-windows-vulnerabilities/4-exploiting-winrm.md)
+      * [c - Windows Privilege Escalation](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/c-windows-privilege-escalation/README.md)
+        * [1 - Windows Kernel Exploitation](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/c-windows-privilege-escalation/1-windows-kernel-exploitation.md)
   * [B - Network Based Attacks](2-host-and-network-penetration-testing/b-network-based-attacks.md)
