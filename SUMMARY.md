@@ -46,4 +46,6 @@
         * [4 - Exploiting WinRM](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/b-exploiting-windows-vulnerabilities/4-exploiting-winrm.md)
       * [c - Windows Privilege Escalation](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/c-windows-privilege-escalation/README.md)
         * [1 - Windows Kernel Exploitation](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/c-windows-privilege-escalation/1-windows-kernel-exploitation.md)
+        * [2 - Bypassing UAC with UACme](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/c-windows-privilege-escalation/2-bypassing-uac-with-uacme.md)
+        * [3 - Access Token Impersonation](2-host-and-network-penetration-testing/a-system-host-based-attacks/i-windows/c-windows-privilege-escalation/3-access-token-impersonation.md)
   * [B - Network Based Attacks](2-host-and-network-penetration-testing/b-network-based-attacks.md)
