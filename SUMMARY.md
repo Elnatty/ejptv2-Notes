@@ -66,5 +66,5 @@
         * [A - Linux Kernel Exploits](2-host-and-network-penetration-testing/a-system-host-based-attacks/ii-linux/c-linux-privilege-escalation/a-linux-kernel-exploits.md)
         * [B - Exploiting Misconfigured Cron Jobs](2-host-and-network-penetration-testing/a-system-host-based-attacks/ii-linux/c-linux-privilege-escalation/b-exploiting-misconfigured-cron-jobs.md)
         * [C - Exploiting SUID Binaries.](2-host-and-network-penetration-testing/a-system-host-based-attacks/ii-linux/c-linux-privilege-escalation/c-exploiting-suid-binaries..md)
-      * [Page 1](2-host-and-network-penetration-testing/a-system-host-based-attacks/ii-linux/page-1.md)
+      * [D - Linux Credential Dumping](2-host-and-network-penetration-testing/a-system-host-based-attacks/ii-linux/d-linux-credential-dumping.md)
   * [B - Network Based Attacks](2-host-and-network-penetration-testing/b-network-based-attacks.md)
