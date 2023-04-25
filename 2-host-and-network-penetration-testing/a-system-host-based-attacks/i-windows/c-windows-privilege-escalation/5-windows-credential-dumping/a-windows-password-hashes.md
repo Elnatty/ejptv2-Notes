@@ -27,7 +27,7 @@
   * Each chunk is then hashed separately with the DES algorithm.
 * LM hashing is generally considered to be a weak protocol and can be easily cracked, primarily because the password hash does not include salts, consequently making brute-force and rainbow table attacks effective against LM hashes.
 
-<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### **NTLM (NTHash)**
 
@@ -39,7 +39,7 @@
   * Case sensitive.
   * Allows the use of symbols and unicode characters.
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 
 
