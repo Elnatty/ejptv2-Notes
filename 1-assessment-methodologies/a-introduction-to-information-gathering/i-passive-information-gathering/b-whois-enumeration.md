@@ -8,7 +8,7 @@ This gives us an idea as to when the site was registered, who owns the site, wha
 
 `whois techfashy.com` - enumerate infos pertaining personal info of the admin, NS, MX records, DNS records etc.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 `who.is` - an online web utility to perform dns lookups.
 

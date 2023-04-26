@@ -103,7 +103,7 @@ Organizations or Governments have put together frameworks that help us with busi
 * 5 levels.
 *
 
-    <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **ASD Essential 8**
 
