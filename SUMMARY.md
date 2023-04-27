@@ -73,6 +73,7 @@
   * [A - Metasploit](3-the-metasploit-framework/a-metasploit/README.md)
     * [i - Installing & Configuring The Metasploit Framework](3-the-metasploit-framework/a-metasploit/i-installing-and-configuring-the-metasploit-framework.md)
     * [ii - Nmap](3-the-metasploit-framework/a-metasploit/ii-nmap.md)
-    * [iii - Enumeration](3-the-metasploit-framework/a-metasploit/iii-enumeration.md)
+    * [iii - Enumeration](3-the-metasploit-framework/a-metasploit/iii-enumeration/README.md)
+      * [FTP, SMB, HTTP,MySQL, SSH, SMTP](3-the-metasploit-framework/a-metasploit/iii-enumeration/ftp-smb-http-mysql-ssh-smtp.md)
   * [B - Information Gathering & Enumeration](3-the-metasploit-framework/b-information-gathering-and-enumeration.md)
   * [C - Vulnerability Scanning](3-the-metasploit-framework/c-vulnerability-scanning.md)
