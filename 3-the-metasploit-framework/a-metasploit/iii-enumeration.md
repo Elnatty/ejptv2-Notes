@@ -14,7 +14,7 @@
 * We will then utilize our foothold to access other systems on a different network subnet (pivoting).
 * We will then utilize auxiliary modules to scan of open ports on the second target.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ## **Practical Demonstration**
 
