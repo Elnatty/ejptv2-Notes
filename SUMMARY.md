@@ -81,6 +81,7 @@
     * [ii - Vulnerability Scanning with Nessus](3-the-metasploit-framework/c-vulnerability-scanning/ii-vulnerability-scanning-with-nessus.md)
     * [iii - Web App Vulnerability Scanning With WMAP](3-the-metasploit-framework/c-vulnerability-scanning/iii-web-app-vulnerability-scanning-with-wmap.md)
     * [Dking Exploit Methodology](3-the-metasploit-framework/c-vulnerability-scanning/dking-exploit-methodology.md)
-  * [D - Client-Side Attacks](3-the-metasploit-framework/d-client-side-attacks.md)
+  * [D - Client-Side Attacks](3-the-metasploit-framework/d-client-side-attacks/README.md)
+    * [i - Payloads](3-the-metasploit-framework/d-client-side-attacks/i-payloads.md)
   * [E - Exploitation](3-the-metasploit-framework/e-exploitation.md)
   * [Page 3](3-the-metasploit-framework/page-3.md)
