@@ -94,7 +94,7 @@
 
 * The MSF file system is organized in a simple and easy to understand format and is organized into various directories.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **MSF Module Location**
 
