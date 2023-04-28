@@ -118,3 +118,22 @@ msf6 > notes #List every notes from post exploitation modules
 
 
 
+## How to Search for anything in Metasploit
+
+```bash
+# easily search for anything in metasploit
+# examples
+
+search -h
+
+# method 1
+search type:exploit platform:windows smb # restrict searches to all smb exploits for windows only.
+search type:exploit platform:linux ftp # all ftp exploits for linux only
+
+# method 2
+# what grep does is: get the particular keyword "auxiliary" from the search result "erernalblue"
+grep auxiliary search eternalblue 
+```
+
+
+
