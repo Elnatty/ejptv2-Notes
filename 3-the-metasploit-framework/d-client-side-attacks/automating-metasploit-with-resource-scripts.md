@@ -40,7 +40,7 @@ msf6 > resource <pathToScript> #Start a resource script directly from MSF
 msf6 > makerc <pathToSave> #Save the previous commands as a resource script
 ```
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>mult handler.rc</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>mult handler.rc</p></figcaption></figure>
 
 
 

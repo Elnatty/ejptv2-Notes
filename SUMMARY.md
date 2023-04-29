@@ -92,4 +92,4 @@
       * [b - Linux Post Exploitation](3-the-metasploit-framework/e-exploitation/iii-post-exploitation-fundamentals/b-linux-post-exploitation.md)
     * [iv - Windows Post Exploitation](3-the-metasploit-framework/e-exploitation/iv-windows-post-exploitation.md)
     * [v - Linux Post Exploitation](3-the-metasploit-framework/e-exploitation/v-linux-post-exploitation.md)
-  * [Page 3](3-the-metasploit-framework/page-3.md)
+  * [F - Armitage](3-the-metasploit-framework/f-armitage.md)
