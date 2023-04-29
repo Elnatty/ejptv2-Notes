@@ -37,7 +37,7 @@
 
 * **The Metasploit Framework Console (MSFconsole)** is an easy-to-use all in one interface that provides you with access to all the functionality of the Metasploit Framework.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### **Metasploit Framework CLI**
 
@@ -49,7 +49,7 @@
 
 * Metasploit Community Edition is a web based GUI front-end for the Metasploit Framework that simplifies network discovery and vulnerability identification.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Armitage**
 
@@ -63,7 +63,7 @@
 
 ▪ The MSF libraries facilitate the execution of modules without having to write the code necessary in order to execute them.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ### **MSF Modules**
 
@@ -94,7 +94,7 @@
 
 * The MSF file system is organized in a simple and easy to understand format and is organized into various directories.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### **MSF Module Location**
 
@@ -115,17 +115,17 @@
 
 ▪ The Penetration Testing Execution Standard (PTES) is a penetration testing methodology that was developed by a team of information security practitioners with the aim of addressing the need for a comprehensive and up-to-date standard for penetration testing.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ### **Penetration Testing Phases**
 
 * The following diagram outlines the various phases involved in a typical penetration test.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### **Penetration Testing With MSF**
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

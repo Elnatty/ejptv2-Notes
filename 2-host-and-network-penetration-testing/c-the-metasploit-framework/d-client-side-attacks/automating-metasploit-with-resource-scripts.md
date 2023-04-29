@@ -11,7 +11,7 @@
 
 ## **Practical Demonstration**
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 /usr/share/metasploit-framework/scripts/resource/ #Location of resource scripts that comes pre-packaged with MSF.
@@ -40,7 +40,7 @@ msf6 > resource <pathToScript> #Start a resource script directly from MSF
 msf6 > makerc <pathToSave> #Save the previous commands as a resource script
 ```
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>mult handler.rc</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>mult handler.rc</p></figcaption></figure>
 
 
 
