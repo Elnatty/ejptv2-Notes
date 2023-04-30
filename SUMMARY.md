@@ -99,3 +99,6 @@
     * [3 - Searching For Publicly Available Exploits](2-host-and-network-penetration-testing/d-exploitation/3-searching-for-publicly-available-exploits.md)
     * [4 - Fixing Exploits](2-host-and-network-penetration-testing/d-exploitation/4-fixing-exploits.md)
     * [5 - Shells](2-host-and-network-penetration-testing/d-exploitation/5-shells.md)
+    * [6 - Exploitation Frameworks](2-host-and-network-penetration-testing/d-exploitation/6-exploitation-frameworks.md)
+    * [Page 2](2-host-and-network-penetration-testing/d-exploitation/page-2.md)
+    * [Page 3](2-host-and-network-penetration-testing/d-exploitation/page-3.md)
