@@ -64,7 +64,7 @@ msf6 > db_status #Check the status of the msfdb
 * These options can be configured through the use of MSF variables.
 * MSFconsole allows you to set both local variable values or global variable values.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## **Practical Demonstration**
 
