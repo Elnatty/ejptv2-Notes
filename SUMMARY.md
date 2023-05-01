@@ -100,5 +100,5 @@
     * [4 - Fixing Exploits](2-host-and-network-penetration-testing/d-exploitation/4-fixing-exploits.md)
     * [5 - Shells](2-host-and-network-penetration-testing/d-exploitation/5-shells.md)
     * [6 - Exploitation Frameworks](2-host-and-network-penetration-testing/d-exploitation/6-exploitation-frameworks.md)
-    * [7 - Windows Exploitation](2-host-and-network-penetration-testing/d-exploitation/7-windows-exploitation.md)
-    * [Page 3](2-host-and-network-penetration-testing/d-exploitation/page-3.md)
+    * [7 - Windows Blackbox Exploitation](2-host-and-network-penetration-testing/d-exploitation/7-windows-blackbox-exploitation.md)
+    * [8 - Linux Blackbox Exploitation](2-host-and-network-penetration-testing/d-exploitation/8-linux-blackbox-exploitation.md)
