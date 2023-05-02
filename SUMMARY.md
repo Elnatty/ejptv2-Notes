@@ -115,5 +115,5 @@
     * [9 - Linux Persistence](2-host-and-network-penetration-testing/e-post-exploitation/page-8.md)
     * [10 - Dumping & Cracking NTLM Hashes](2-host-and-network-penetration-testing/e-post-exploitation/page-7.md)
     * [11 - Dumping & Cracking Linux Password Hashes](2-host-and-network-penetration-testing/e-post-exploitation/page-6.md)
-    * [12 - Pivoting](2-host-and-network-penetration-testing/e-post-exploitation/12-pivoting.md)
-    * [Page 4](2-host-and-network-penetration-testing/e-post-exploitation/page-4.md)
+    * [12 - Pivoting](2-host-and-network-penetration-testing/e-post-exploitation/page-5.md)
+    * [13 - Clearing Your Tracks](2-host-and-network-penetration-testing/e-post-exploitation/13-clearing-your-tracks.md)
