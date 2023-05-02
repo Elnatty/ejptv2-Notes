@@ -11,7 +11,7 @@
 
 ## **Practical Demonstration**
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 /usr/share/metasploit-framework/scripts/resource/ #Location of resource scripts that comes pre-packaged with MSF.
