@@ -116,4 +116,6 @@
     * [10 - Dumping & Cracking NTLM Hashes](2-host-and-network-penetration-testing/e-post-exploitation/page-7.md)
     * [11 - Dumping & Cracking Linux Password Hashes](2-host-and-network-penetration-testing/e-post-exploitation/page-6.md)
     * [12 - Pivoting](2-host-and-network-penetration-testing/e-post-exploitation/page-5.md)
-    * [13 - Clearing Your Tracks](2-host-and-network-penetration-testing/e-post-exploitation/13-clearing-your-tracks.md)
+    * [13 - Clearing Your Tracks](2-host-and-network-penetration-testing/e-post-exploitation/page-4.md)
+* [3 - Web App Pentesting](3-web-app-pentesting/README.md)
+  * [Labs](3-web-app-pentesting/labs.md)
