@@ -119,3 +119,4 @@
     * [13 - Clearing Your Tracks](2-host-and-network-penetration-testing/e-post-exploitation/page-4.md)
 * [3 - Web App Pentesting](3-web-app-pentesting/README.md)
   * [Labs](3-web-app-pentesting/labs.md)
+* [Privilege Escalation Checklists](privilege-escalation-checklists.md)
