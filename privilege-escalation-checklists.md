@@ -4,7 +4,9 @@ description: Linux and Windows
 
 # Privilege Escalation Checklists
 
-<mark style="color:red;">inux Privilege Escalation checklist:</mark>
+## <mark style="color:red;">Linux Privilege Escalation checklist:</mark>
+
+[https://infosecwriteups.com/linux-privilege-escalation-linux-kernel-distribution-exploits-you-should-now-about-1c46152d133d](https://infosecwriteups.com/linux-privilege-escalation-linux-kernel-distribution-exploits-you-should-now-about-1c46152d133d)
 
 <details>
 
@@ -223,6 +225,27 @@ getcap -r / 2>/dev/null
 
 ## <mark style="color:red;">Windows Privilege Escalation Enumeration Commands:</mark>
 
+[https://medium.com/@sushantkamble/windows-privilege-escalation-without-metasploit-9bad5fbb5666](https://medium.com/@sushantkamble/windows-privilege-escalation-without-metasploit-9bad5fbb5666)
+
+<details>
+
+<summary>Windows Priv Esc Mind map</summary>
+
+![](<.gitbook/assets/image (20).png>)
+
+</details>
+
+* Stored Credentials
+* Windows Kernel Exploiytation
+* DLL Hijacking
+* Unquoted Service Path
+* Weak Folder Permissions
+* Weak Service Permission
+* Weak Registry Permission
+* Always Install Elevated
+* Modifiable Autorun
+* Token Impersonation
+
 1. ### Kernel vulnerabilities:
    * `systeminfo`: displays system information, including the OS version and build number.
    * `driverquery`: displays information about installed drivers.
@@ -288,10 +311,6 @@ reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"
 {% endcode %}
 
 </details>
-
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption><p>mind-map</p></figcaption></figure>
-
-
 
 
 
