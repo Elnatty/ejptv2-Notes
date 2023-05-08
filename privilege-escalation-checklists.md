@@ -205,7 +205,7 @@ getcap -r / 2>/dev/null
     * `find / -perm -2000 2>/dev/null`: finds SGID binaries.
     * `ls -l /usr/bin/sudo`: checks if the `sudo` binary has the SUID bit set.
 
-    In case you find `/bin/systemctl` binary, you can create a service and execute it using the "systemctl enable \<serviceName.service>" to  esc priv... check this blog for more info.. [https://medium.com/@klockw3rk/privilege-escalation-leveraging-misconfigured-systemctl-permissions-bc62b0b28d49](https://medium.com/@klockw3rk/privilege-escalation-leveraging-misconfigured-systemctl-permissions-bc62b0b28d49)
+    In case you find `/bin/systemctl` binary, you can create a service and execute it using the `systemctl enable <serviceName.service>` to  enable the service, then `systemctl start <servicename.service>`  to start the service, you should get a root shell.... check this blog for more info.. [https://medium.com/@klockw3rk/privilege-escalation-leveraging-misconfigured-systemctl-permissions-bc62b0b28d49](https://medium.com/@klockw3rk/privilege-escalation-leveraging-misconfigured-systemctl-permissions-bc62b0b28d49)
 3. ### Writable directories and files:
    * `find / -writable -type d 2>/dev/null`: finds writable directories.
    * `find / -writable -type f 2>/dev/null`: finds writable files.
