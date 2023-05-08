@@ -8,7 +8,7 @@
 * MX - resolves a domain to a mail server.
 * CNAME - used for domain aliases.
 * TXT - text records.
-* HINFO - hosti information.
+* HINFO - host information.
 * SOA - domain authority.
 * SVR - service records,
 * PTR - resolves an ip address to a hostname.

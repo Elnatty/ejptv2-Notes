@@ -10,7 +10,7 @@ description: Discovering Systems or Hosts on a Network
 
 ### \[Nmap] utility
 
-`sudo nmap -sn 192.168.0.0/24` - sends an ICMP ping request to determine hosts that are up in a network.
+`sudo nmap -sn 192.168.0.1-254` - sends an ICMP ping request to determine hosts that are up in a network (ping sweep).
 
 ### \[netdiscover] utility
 
