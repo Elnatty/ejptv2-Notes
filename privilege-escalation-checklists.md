@@ -225,6 +225,10 @@ getcap -r / 2>/dev/null
 
 ## <mark style="color:red;">Windows Privilege Escalation Enumeration Commands:</mark>
 
+{% embed url="https://github.com/xXxhagenxXx/OSCP_Cheat_sheet/blob/main/Windows%20Privilege%20Escalation%20Techniques.md" %}
+allinone checklist
+{% endembed %}
+
 [https://medium.com/@sushantkamble/windows-privilege-escalation-without-metasploit-9bad5fbb5666](https://medium.com/@sushantkamble/windows-privilege-escalation-without-metasploit-9bad5fbb5666)
 
 <details>
