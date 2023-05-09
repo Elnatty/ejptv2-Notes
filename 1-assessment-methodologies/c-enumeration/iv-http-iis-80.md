@@ -29,6 +29,8 @@
 ### Metasploit
 
 ```bash
+# /usr/share/metasploit-framework/data/wordlists/directory.txt
+
 # 1
 use auxiliary/scanner/http/http_version
 set RHOSTS $ip
