@@ -24,6 +24,8 @@
 
 `nmap -$ip -p80  -sV --script http-methods --script-args http-methods.url-path=/webdav/` -  enumerates the supported http-methods.
 
+`nmap --script http-methods --script-args http-methods.url-path=/webdav/ $ip` - scanning a directory for supported methods.
+
 ### Metasploit
 
 ```bash
