@@ -18,6 +18,8 @@
 
 ## HTTP Nmap enumeration
 
+`nmap -sV --script banner $ip` - grabs web server banner.
+
 `nmap -$ip -p80  -sV --script http-enum` - returns directories, and services running.
 
 `nmap -$ip -p80  -sV --script http-headers` - enumerate http-headers.
