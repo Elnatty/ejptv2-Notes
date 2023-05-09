@@ -38,7 +38,7 @@ options
 run
 
 # 2
-use auxiliary/scanner/http/brute-dirs
+use auxiliary/scanner/http/brute_dirs
 show options
 set RHOSTS $ip
 run
