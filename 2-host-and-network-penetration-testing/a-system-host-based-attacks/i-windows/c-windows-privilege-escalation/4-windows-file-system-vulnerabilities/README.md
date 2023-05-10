@@ -40,6 +40,10 @@ cat out the content, you get the administrator username and its encoded password
 
 Decode it with Powershell.
 
+`$password='sdbsvdvvffvv'` - create a variable in powershell.
+
+`$password=[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64 String($password))` - decode the password with powershell cmd.
+
 <figure><img src="../../../../../.gitbook/assets/Screenshot_2023-05-10_13-39-12.png" alt=""><figcaption><p>decode password with PowerShell</p></figcaption></figure>
 
 Now spawn a privileged cmd prompt session with the credentials using the "runas.exe" utility.
