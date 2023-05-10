@@ -55,6 +55,10 @@ use post/linux/gather/hashdump
 options
 set SESSIONS 2
 run  # dumps list of users and their hashes.
+
+# cracking linux hashes
+# make sure the workspace is working (db)
+use auxiliary/analyse/crack/_linux
 ```
 {% endcode %}
 
