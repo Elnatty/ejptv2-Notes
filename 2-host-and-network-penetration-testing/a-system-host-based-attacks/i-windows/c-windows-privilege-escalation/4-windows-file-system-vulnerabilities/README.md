@@ -24,10 +24,6 @@ Import-Module .\PowerUp.ps1
 . .\PowerUp.ps1
 
 # 5
-# to see all imported commands
-Get-Command -Module Privesc
-
-# 6
 # Invoke-PrivEscAudit checks and other checks
 Invoke-PrivEscAudit
 # we found some "Unattend installation .xml files" you could find something else.
@@ -42,7 +38,7 @@ Decode it with Powershell.
 
 `$password='sdbsvdvvffvv'` - create a variable in powershell.
 
-`$password=[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64 String($password))` - decode the password with powershell cmd.
+`$password=[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($password))` - decode the password with powershell cmd.
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot_2023-05-10_13-39-12.png" alt=""><figcaption><p>decode password with PowerShell</p></figcaption></figure>
 
