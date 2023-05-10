@@ -25,6 +25,7 @@ run
 # we get a meterpreter.
 sysinfo
 getuid
+# migrate to lsass process to get NT AUTHORITY.
 pgrep lsass  # migrate to a 64bit process in this case, the lsass process.
 getuid # we have NT AUTHORITY.
 ```
