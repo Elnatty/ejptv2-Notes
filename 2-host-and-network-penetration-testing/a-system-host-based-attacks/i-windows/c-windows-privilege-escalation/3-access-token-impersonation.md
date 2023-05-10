@@ -42,6 +42,7 @@ We will utilize the Rejetto Http File Server service vuln like in previous sessi
 > * if you find an access token that is available or you can impersonate, then you can impersonate or obtain the priv associated with that access token.
 > * Though the assess token does not need to belong to a particular user.
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 # using metasploit.
 # we have a 32bit meterpreter session.
@@ -72,6 +73,7 @@ getuid  # we are now NT AUTHORITY.
 
 
 ```
+{% endcode %}
 
 
 

