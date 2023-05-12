@@ -13,12 +13,14 @@ description: 21, 139/445, 80, 3306, 22, 25/465/587
 
 #### **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 msf6 > use auxiliary/scanner/portscan/tcp #Perform a port scan with an MSF module
 msf6 > use auxiliary/scanner/ftp/ftp_version #Enumerate the version of the FTP service
 msf6 > use auxiliary/scanner/ftp/ftp_login #Perform a brute force attack against the FTP service to obtain legitimate credentials.
 msf6 > use auxiliary/scanner/ftp/anonymous #Check if anonymous login is enabled
 ```
+{% endcode %}
 
 ##
 
@@ -31,6 +33,7 @@ msf6 > use auxiliary/scanner/ftp/anonymous #Check if anonymous login is enabled
 
 **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 msf5 > search type:auxiliary name:smb # search query.
 msf5 > use 29
@@ -43,6 +46,7 @@ msf5 > use auxiliary/scanner/smb/smb_login #Perform brute-force attack against s
 smbclient -L \\\\<targetIP>\\ -U <username> #Perform SMB shares enumeration using legitimate credentials
 smbclient \\\\<targetIP>\\<share> -U <username> #Interact with a share using legitimate credentials
 ```
+{% endcode %}
 
 
 
@@ -56,6 +60,7 @@ smbclient \\\\<targetIP>\\<share> -U <username> #Interact with a share using leg
 
 **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 msf5 > use auxiliary/scanner/http/http_version #Perform HTTP version detection
 msf5 > use auxiliary/scanner/http/http_header #Perform HTTP header detection
@@ -67,7 +72,19 @@ set AUTH_URI <path_to_the_secure_dir>
 set PASS_FILE and set USER_FILE # then unset USERPASS_FILE
 msf5 > use auxiliary/scanner/http/apache_userdir_enum #Returns valid usernames used on the web server.
 
+# ine lab guide..
+auxiliary/scanner/http/apache_userdir_enum
+auxiliary/scanner/http/brute_dirs
+auxiliary/scanner/http/dir_scanner
+auxiliary/scanner/http/dir_listing
+auxiliary/scanner/http/http_put
+auxiliary/scanner/http/files_dir
+auxiliary/scanner/http/http_login
+auxiliary/scanner/http/http_header
+auxiliary/scanner/http/http_version
+auxiliary/scanner/http/robots_txt
 ```
+{% endcode %}
 
 
 
@@ -80,6 +97,7 @@ msf5 > use auxiliary/scanner/http/apache_userdir_enum #Returns valid usernames u
 
 **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 msf5 > auxiliary/scanner/mysql/mysql_version #Perform MySQL service version enumeration.
 msf5 > auxiliary/scanner/mysql/mysql_login #Perform brute-force attack against MySQL service.
@@ -91,6 +109,7 @@ MySQL > show databases; #Returns all databases stored in the MySQl server
 msf5 > use auxiliary/scanner/mysql/mysql_schemadump #Extract the schema information from the MySQL server
 
 ```
+{% endcode %}
 
 
 
@@ -103,11 +122,13 @@ msf5 > use auxiliary/scanner/mysql/mysql_schemadump #Extract the schema informat
 
 **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 msf5 > use auxiliary/scanner/ssh/ssh_version #Perform SSH version detection.
 msf5 > use auxiliary/scanner/ssh/ssh_login #Perform brute-force attack against the SSH server (Use ssh_login_pubkey module if SSH is using public key as authentication)
 msf5 > use auxiliary/scanner/ssh/ssh_enumusers #Enumerate SSH users
 ```
+{% endcode %}
 
 
 
@@ -117,12 +138,63 @@ msf5 > use auxiliary/scanner/ssh/ssh_enumusers #Enumerate SSH users
 * SMTP uses port 25 by default. It can also be configured to run on TCP port 465 and 587.
 * We can utilize auxiliary modules to enumerate the version of SMTP as well as user accounts on the target system.
 
+#### using the \[smtp-user-enum] utility
+
+```
+# bruteforcing smtp users.
+smtp-user-enum -U <wordlist_path> -t $ip 
+```
+
+#### Sending mails to users email.
+
+{% code overflow="wrap" lineNumbers="true" %}
+```bash
+telnet $ip 25 # login with telnet.
+HELO attacker.xyz
+mail from: hacker@attacker.xyz
+rcpt to: root@openmailbox.xyz
+data # from message.
+Subject: Hi root,
+hello,
+This is a fake mail.
+bye.
+# ctrl+z
+
+# using [sendemail] utility to send email.
+sendemail -f <from_email> -t <to_email> -s $ip -u <subject> -m <message content>
+```
+{% endcode %}
+
+
+
 **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
+# nmap cmd
+nmap -sV -script banner $ip
+
+# banner grabbing with netcat
+nc $ip 25
+
+# metasploit
 msf5 > use auxiliary/scanner/smtp/smtp_version #Perform SMTP version detection
 msf5 > use auxiliary/scanner/smtp/smtp_enum #Perform SMTP user enumeration
+
+# wordlists
+/usr/share/commix/src/txt/usernames.txt
+/usr/share/metasploit-framework/data/wordlists/unix_users.txt
+
+# Verify if a user exist
+telnet $ip 25 # login smtp with telnet.
+VRFY admin@<email_domain.com> # check if the admin user exist.
+
+# view help cmds list.
+EHLO <any_name> # returns the help cmd menu.
+
+
 ```
+{% endcode %}
 
 
 
