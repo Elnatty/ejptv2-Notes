@@ -18,6 +18,7 @@
 
 ## **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 # systemctl start postgresql && msfconsole
 db_status # check if postgresql db is running.
@@ -61,9 +62,10 @@ run
 # we can now scan other subnets on a network.
 
 search udp-sweep # a module for udp scans.
-use 0
+use auxiliary/scanner/discovery/udp_sweep
 set RHOSTS $ip_victim1 or $ip_victim2
 ```
+{% endcode %}
 
 
 

@@ -8,17 +8,19 @@
 
 ## **Practical Demonstration**
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 nmap #Show the nmap help page
 nmap <targetIP> #Perform a default scan
 nmap <...> -sV #Perform service enumeration
 nmap <...> -O #Perform OS detection
 nmap <...> -oX <fileName> #Output the scan as an XML file for importing to Metaasploit Framework.
-
 ```
+{% endcode %}
 
 ## Importing Nmap Scan Results Into MSF
 
+{% code overflow="wrap" lineNumbers="true" %}
 ```bash
 # create a workspace for the nmap scan results you want to work on.
 # db_import /home/dking/metasploitable_scan
@@ -27,6 +29,7 @@ msf5 > services #Show the open ports and correspondant services of discovered ho
 msf5 > db_nmap <...> #Perform an nmap scan within MSF and saves it directly in the msfdb
 msf5 > vulns #List out vulnerabilities detected within the hosts in the msfdb
 ```
+{% endcode %}
 
 
 
