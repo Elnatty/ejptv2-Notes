@@ -91,8 +91,6 @@
       * [iii - Post Exploitation Fundamentals](2-host-and-network-penetration-testing/c-the-metasploit-framework/e-exploitation/iii-post-exploitation-fundamentals/README.md)
         * [a - Windows Post Exploitation](2-host-and-network-penetration-testing/c-the-metasploit-framework/e-exploitation/iii-post-exploitation-fundamentals/a-windows-post-exploitation.md)
         * [b - Linux Post Exploitation](2-host-and-network-penetration-testing/c-the-metasploit-framework/e-exploitation/iii-post-exploitation-fundamentals/b-linux-post-exploitation.md)
-      * [iv - Windows Post Exploitation](2-host-and-network-penetration-testing/c-the-metasploit-framework/e-exploitation/iv-windows-post-exploitation.md)
-      * [v - Linux Post Exploitation](2-host-and-network-penetration-testing/c-the-metasploit-framework/e-exploitation/v-linux-post-exploitation.md)
     * [F - Armitage](2-host-and-network-penetration-testing/c-the-metasploit-framework/f-armitage.md)
   * [D - Exploitation](2-host-and-network-penetration-testing/d-exploitation/README.md)
     * [1 - Introduction To Exploitation](2-host-and-network-penetration-testing/d-exploitation/1-introduction-to-exploitation.md)

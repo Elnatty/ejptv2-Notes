@@ -25,7 +25,7 @@
 - you can rightclick on the icon, then scan.
 - you can rightclick on the icon, then service to view the services.
 - you can do nmap scan too.
-- you can search for exploita, under the modules listing tab.
+- you can search for exploits, under the modules listing tab.
 ```
 
 
