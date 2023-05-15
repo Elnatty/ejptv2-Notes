@@ -187,7 +187,7 @@ msf5 > use auxiliary/scanner/smtp/smtp_enum #Perform SMTP user enumeration
 
 # Verify if a user exist
 telnet $ip 25 # login smtp with telnet.
-VRFY admin@<email_domain.com> # check if the admin user exist.
+VRFY admin@<email_domain.com> # check if the admin user exist, adding the email isnt always necessary.
 
 # view help cmds list.
 EHLO <any_name> # returns the help cmd menu.
