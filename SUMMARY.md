@@ -120,3 +120,4 @@
   * [Labs](3-web-app-pentesting/labs.md)
 * [Privilege Escalation Checklists](privilege-escalation-checklists.md)
 * [Exam Prep](exam-prep.md)
+* [Local Enumeration Checklists](local-enumeration-checklists.md)
