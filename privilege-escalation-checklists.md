@@ -234,6 +234,8 @@ allinone checklist
 
 [https://medium.com/@sushantkamble/windows-privilege-escalation-without-metasploit-9bad5fbb5666](https://medium.com/@sushantkamble/windows-privilege-escalation-without-metasploit-9bad5fbb5666)
 
+[https://pswalia2u.medium.com/windows-privilege-escalation-via-misconfigured-services-ea4c01cac89c](https://pswalia2u.medium.com/windows-privilege-escalation-via-misconfigured-services-ea4c01cac89c)
+
 <details>
 
 <summary>Windows Priv Esc Mind map</summary>
