@@ -26,6 +26,7 @@
     * [iii - SSH - 22](1-assessment-methodologies/c-enumeration/iii-ssh-22.md)
     * [iv - HTTP IIS - 80](1-assessment-methodologies/c-enumeration/iv-http-iis-80.md)
     * [v - MySQL - 1433,3306](1-assessment-methodologies/c-enumeration/v-mysql-1433-3306.md)
+    * [vi -Rsync - 873](1-assessment-methodologies/c-enumeration/vi-rsync-873.md)
   * [D - Vulnerability Assessment](1-assessment-methodologies/d-vulnerability-assessment/README.md)
     * [How to do a Nessus Scan](1-assessment-methodologies/d-vulnerability-assessment/how-to-do-a-nessus-scan.md)
     * [i - Vulnerabilities](1-assessment-methodologies/d-vulnerability-assessment/i-vulnerabilities.md)
